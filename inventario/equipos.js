@@ -8,4 +8,6 @@ const {
     deleteEquipo
 } = require('../model/equipoModel');
 
+//TODO YESS AQUI HARE YO LO QUE VA PARA CREARTE LOS LINKS DE PETICION
+
 module.exports = router;

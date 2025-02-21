@@ -6,7 +6,7 @@ CREATE DATABASE equipo_db;
 
 USE equipo_db;
 
-CREATE TABLE Equipo (
+CREATE TABLE equipo (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     tipo ENUM('Cabeza', 'Manos', 'Pies', 'Torso', 'ArmaPrimaria', 'ArmaSecundaria') NOT NULL,
@@ -14,7 +14,7 @@ CREATE TABLE Equipo (
     rareza ENUM('Common, Rare, Epic, Legendary') NOT NULL
 );
 
-CREATE TABLE Stats (
+CREATE TABLE stats (
     id INT AUTO_INCREMENT PRIMARY KEY,
     equipo_id INT NOT NULL,
     vida INT NOT NULL DEFAULT 0 CHECK (vida BETWEEN 0 AND 999),
