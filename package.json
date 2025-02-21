@@ -1,0 +1,25 @@
+{
+  "name": "inventariorpg",
+  "version": "1.0.0",
+  "description": "Aplicacion web de manejo de inventario para juego de rol",
+  "homepage": "https://github.com/DreamRemnant/InventarioRPG#readme",
+  "bugs": {
+    "url": "https://github.com/DreamRemnant/InventarioRPG/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamRemnant/InventarioRPG.git"
+  },
+  "license": "ISC",
+  "author": "Juan Martinez, Yesenia Morales",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
